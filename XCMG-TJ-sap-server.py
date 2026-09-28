@@ -13,11 +13,11 @@ from fastmcp import FastMCP
 # ==================== 配置区域 ====================
 
 SAP_CONFIG = {
-    "ashost": "10.1.4.42",       # SAP 应用服务器地址
-    "sysnr":  "00",               # 系统编号（用于推算默认端口）
-    "client": "800",              # 客户端
-    "user":   "XJ0XXH",
-    "passwd": "zxcvbnm123",
+    "ashost": "mysap.goodsap.cn",       # SAP 应用服务器地址
+    "sysnr":  "04",               # 系统编号（用于推算默认端口）
+    "client": "400",              # 客户端
+    "user":   "KN827",
+    "passwd": "flyingsun",
     "lang":   "ZH",
     # HTTP SOAP RFC 端口：一般 HTTP = 8000 + sysnr；HTTPS = 44300 + sysnr
     "port":   None,               # None 表示自动推算
