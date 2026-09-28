@@ -20,7 +20,7 @@ SAP_CONFIG = {
     "passwd": "flyingsun",
     "lang":   "ZH",
     # HTTP SOAP RFC 端口：一般 HTTP = 8000 + sysnr；HTTPS = 44300 + sysnr
-    "port":   None,               # None 表示自动推算
+    "port":   "3204",               # None 表示自动推算
     "https":  False,              # 使用 HTTPS 改为 True
 }
 
